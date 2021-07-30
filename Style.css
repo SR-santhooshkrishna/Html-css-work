@@ -1,0 +1,99 @@
+body{
+
+	font-family: arial,heluetica,sans-serif;
+	
+	font-size: 16px;
+}
+h1{
+	color: red;
+	text-align: center;
+}
+h2{
+	color: black;
+	text-align: center;
+	text-transform: uppercase;
+}
+p{
+	line-height: 1.9em;
+}
+a{
+text-decoration: none;
+
+}
+a:hover{
+	color: red;
+}
+a:active{
+	color: blue;
+}
+a:visited{
+	color: black;
+}
+.c1
+{
+	color: #8EDC69;
+	background-color: black;
+	text-transform: uppercase;
+	border:  red 5px solid;
+	padding: 20px;
+
+
+}
+.c2
+{
+	color:black;
+	background-color: #8EDC69; 
+	font-family: tahoma;
+	font-style: italic;
+	text-decoration: underline;
+	letter-spacing: 0.2em;
+	word-spacing: 1em;
+}
+.container{
+	width:80%;
+	margin:auto;
+	margin-top: 100px;
+}
+.c3
+{
+border: 1px red solid;
+border-radius: 15px;
+}
+.c3 li{
+padding-bottom: 5px;
+border-bottom: red 5px dotted;
+}
+.c3 ul{
+	list-style-image: url('../image/im.png');
+}
+.fg{
+	padding: 20px;
+}
+.f1{
+padding-bottom: 20px;
+}
+.fg label{
+	display: block;
+}
+.fg input[type="text"]{
+	padding: 10px;
+	width: 100%;
+}
+.button{
+	background-color: #333;
+	color: white;
+	padding: 10px;
+	border: none;
+}
+.button:hover{
+	background-color: red;
+	color: white;
+}
+.block
+{
+	float: left;
+	width: 33.3%;
+	border: 3px solid blue;
+	padding: 10px;
+	box-sizing: border-box;
+}
